@@ -1,0 +1,59 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+
+#Hero-Section {
+  background-image: url(/assets/img/Imagen\ de\ WhatsApp\ 2025-08-12\ a\ las\ 21.23.22_b4195c48.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+.row i{
+    width: 10px;
+}
+
+.image-top {
+    width: 100%;
+    height: 10px;
+}
+
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
+
+.portafolio{
+  display: flex;
+  align-items: center;
+  gap: 6%;
+  padding-left: 10%;
+  padding-bottom: 3%;
+img{
+  width: 350px;
+  height: 500px;
+}
+}
+
+
